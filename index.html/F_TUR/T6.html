@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TYR COMPANI</title>
+    <link rel="icon" type="image/x-icon" href="../favicon/TYR COMPANI.ico">
+    <link rel="stylesheet" type="text/css" href="../CSS/C-T1.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="../IMAGES/LOGO.png" alt="LOGO" width="550" height="200">
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../KYRSOVAYA.html" class="кнопка">
+                        <div>Головна</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../TYRU.html" class="кнопка">
+                        <div>Тури</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../POSLYGU.html" class="кнопка">
+                        <div>Послуги</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../PRO NAS.html" class="кнопка">
+                        <div>Про нас</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../CONTACTU.html" class="кнопка">
+                        <div>Контакти</div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Тут буде вміст сторінки "Тури" -->
+        <div class="button-container">
+            <button class="transparent-button" id="hotel1" onclick="toggleHotelInfo('hotel1')">
+                <img src="../IMAGES/H1.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T1.html'">
+                <span class="hotel-name" style="font-size: 3vw;">GREEN PARROT</span>
+                <div class="hotel-description">
+                    Green Parrot Hotel Istanbul - це готель в центрі міста Стамбул, в 700 м від такої пам'ятки, як Цистерна Базиліка.
+                    До послуг гостей сад, загальний лаундж та тераса.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T1.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel2" onclick="toggleHotelInfo('hotel2')">
+                <img src="../IMAGES/H2.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T2.html'">
+                <span class="hotel-name"style="font-size: 3vw;">Haritha Villas & Spa</span>
+                <div class="hotel-description">
+                    Комплекс Haritha Villas+. Спа-готель розташований на пагорбі в тіні дерев, менш ніж за 1 км від пляжу Нарігама і за 1,2 км від пляжу Хіккадува.
+                    До послуг гостей ресторан, безкоштовна приватна парковка, 20-метровий відкритий басейн, фітнес-центр та бар.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T2.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel3" onclick="toggleHotelInfo('hotel3')">
+                <img src="../IMAGES/H3.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T3.html'">
+                <span class="hotel-name" style="font-size: 3vw;">DILARA RESORT</span>
+                <div class="hotel-description">
+                    курортному готелі Dilara працюють ресторан та цілодобова стійка реєстрації. Надається безкоштовний Wi-Fi.
+                    У кожному номері є кондиціонер, робочий стіл, вітальня зона і духовка. Власна ванна кімната з душем укомплектована капцями.
+                    З вікон відкривається вид на сад.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T3.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel4" onclick="toggleHotelInfo('hotel4')">
+                <img src="../IMAGES/H4.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T1.html'">
+                <span class="hotel-name" style="font-size: 3vw;">Horizon Kite Surfing Beach Resort</span>
+                <div class="hotel-description">
+                    Відвідвачі готелю можуть насолоджуватися туром по визначним місцям міста: Horizon KiteSurfing Beach Resort.
+                    Серед зручностей — сад, загальний лаундж, тераса та безкоштовне приватне паркування. З вікон готелю з 5 зірками відкривається чудовий краєвид на басейн.
+                    Гості можуть скористатися гідромасажною ванною. Гості можуть звернутися до співробітників цілодобової стійки реєстрації,
+                    скористатись трансфером від/до аеропорту або доставкою їжі та напоїв, а також підключитися до безкоштовного Wi-Fi.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T1.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel5" onclick="toggleHotelInfo('hotel5')">
+                <img src="../IMAGES/H5.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T2.html'">
+                <span class="hotel-name" style="font-size: 3vw;">Amangalla Hotel</span>
+                <div class="hotel-description">
+                    Amangalla - це чудовий вибір для гостей Галле, елітна атмосфера і безліч корисних послуг зроблять перебування тут дуже приємним.
+                    Відвідвачі готелю можуть насолоджуватися туром по визначним місцям міста: Amangalla Hotel, розташований неподалік від таких місць як
+                    Galle International Stadium (0,3 км) та Dutch Reformed Church (0,5 км).
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T2.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel6" onclick="toggleHotelInfo('hotel6')">
+                <img src="../IMAGES/H6.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T3.html'">
+                <span class="hotel-name" style="font-size: 3vw;">TARU VILLAS RAMPART STREET</span>
+                <div class="hotel-description">
+                    Готель Taru Villas - Rampart Street розташований у місті Галле, за 200 м від голландської церкви.
+                    До послуг гостей відкритий басейн та номери з безкоштовним Wi-Fi. Цей бутік-готель має цілодобову стійку реєстрації та загальний лаундж.
+                    У готелі працює ресторан. До форту Галлє можна дійти за 4 хвилини.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T3.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel7" onclick="toggleHotelInfo('hotel7')">
+                <img src="../IMAGES/H7.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T3.html'">
+                <span class="hotel-name" style="font-size: 3vw;">KITE RESORT</span>
+                <div class="hotel-description">
+                    Kite Resort Phu Quoc Island – це готель у місті Фукуок, менш ніж за 1 км від таких місць як Пляж Онг-Ланг.
+                    Серед зручностей - відкритий басейн, сад, тераса і безкоштовне приватне паркування.
+                    Гості можуть скористатися банкоматом або відвідати ресторан.
+                    Гості можуть звернутися до співробітників цілодобової стійки реєстрації, скористатись трансфером від/до аеропорту або доставкою їжі та напоїв,
+                    а також підключитися до безкоштовного Wi-Fi.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T3.html'">Ціна: $1000</button>
+        </div>
+        <script>
+            function toggleHotelInfo(buttonId) {
+                var button = document.getElementById(buttonId);
+                var hotelName = button.querySelector('.hotel-name');
+                var description = button.querySelector('.hotel-description');
+
+                if (description.style.display === 'none' || description.style.display === '') {
+                    description.style.display = 'block';
+                    hotelName.style.display = 'none';
+                } else {
+                    description.style.display = 'none';
+                    hotelName.style.display = 'inline'; // Встановлюємо inline, щоб вернути оригінальний стиль
+                }
+            }
+        </script>
+    </main>
+    <footer>
+        <p>© 2023 TYR COMPANI. Усі права захищені.</p>
+        <p>Контактна інформація: example.@gmail.com</p>
+    </footer>
+</body>
+</html>
