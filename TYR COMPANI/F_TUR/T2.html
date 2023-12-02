@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TYR COMPANI</title>
+    <link rel="icon" type="image/x-icon" href="../favicon/TYR COMPANI.ico">
+    <link rel="stylesheet" type="text/css" href="../CSS/C-T1.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="../IMAGES/LOGO.png" alt="LOGO" width="550" height="200">
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html" class="кнопка">
+                        <div>Головна</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../TYRU.html" class="кнопка">
+                        <div>Тури</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../POSLYGU.html" class="кнопка">
+                        <div>Послуги</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../PRO NAS.html" class="кнопка">
+                        <div>Про нас</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../CONTACTU.html" class="кнопка">
+                        <div>Контакти</div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Тут буде вміст сторінки "Тури" -->
+        <div class="button-container">
+            <button class="transparent-button" id="hotel1" onclick="toggleHotelInfo('hotel1')">
+                <img src="../IMAGES/K1.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T1.html'">
+                <span class="hotel-name" style="font-size: 3vw;">Kleopatra Sun Light</span>
+                <div class="hotel-description">
+                    Kleopatra Sunlight Hotel розташований за 500 м від центру м. Аланія. Готель пропонує комфортабельні номери неподалік пляжу Клеопатра, пристані Аланії та
+                    археологічного музею Аланії. У номерах є телевізор із супутниковими каналами, кондиціонер, міні-бар та ванна кімната. Гості можуть відпочити у сауні чи
+                    турецькій лазні, а також скористатися послугами масажу. Готель чудово підходить як для молодіжного, так і для сімейного відпочинку.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T1.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel2" onclick="toggleHotelInfo('hotel2')">
+                <img src="../IMAGES/K2.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T2.html'">
+                <span class="hotel-name" style="font-size: 3vw;">Nergos Side</span>
+                <div class="hotel-description">
+                    Готель Nergos Side Hotel розташований у місті Сіде, за 1,8 км від музею Сіде.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T2.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel3" onclick="toggleHotelInfo('hotel3')">
+                <img src="../IMAGES/K3.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T3.html'">
+                <span class="hotel-name" style="font-size: 3vw;">Britannia Hotel & Villas</span>
+                <div class="hotel-description">
+                    Готель Britannia Hotel розташований у центрі міста Кемер, за 200 м від моря. Готель складається із чотирьох 3-х поверхових корпусів.
+                    До послуг гостей відкритий басейн для дітей та дорослих, а також ресторан та кілька барів, де гості готелю зможуть насолодитися стравами та напоями.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T3.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel4" onclick="toggleHotelInfo('hotel4')">
+                <img src="../IMAGES/K4.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T1.html'">
+                <span class="hotel-name" style="font-size: 3vw;">Beldibi Beach Hotel</span>
+                <div class="hotel-description">
+                    Готель Beldibi Beach з рестораном, баром, відкритим басейном та спільним лаунджем розташований у селищі Бельдібі.
+                    До послуг гостей сад та приватний пляж. Стійка реєстрації відкрита цілодобово. У готелі можна скористатися послугами консьєржа та обміняти валюту.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T1.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel5" onclick="toggleHotelInfo('hotel5')">
+                <img src="../IMAGES/K5.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T2.html'">
+                <span class="hotel-name" style="font-size: 3vw;">Elijah Hotel</span>
+                <div class="hotel-description">
+                    Готель Elijah розташований у місті Кемер. До послуг гостей ресторан, сезонний басейн, бар і сад.
+                    На території працює цілодобова стійка реєстрації та пункт обміну валют. За бажанням здійснюється доставка їжі та напоїв у номер.
+                    У номерах є кондиціонер, шафа для одягу, телевізор з плоским екраном, сейф, міні-бар, чайник, балкон і власна ванна кімната з душем. Надаються рушники та постільна білизна.
+                    Вранці подається сніданок «шведський стіл».
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T2.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel6" onclick="toggleHotelInfo('hotel6')">
+                <img src="../IMAGES/K6.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T3.html'">
+                <span class="hotel-name" style="font-size: 3vw;">First Class Hotel</span>
+                <div class="hotel-description">
+                    Затишний готель з доглянутою територією. Хороша анімаційна програма.
+                    Готель розташований у селищі Каргиджак, недалеко від міста Аланія, через дорогу від пляжу. Це одна 6-поверхова будівля.
+                    Рекомендовано для сімейного та молодіжного відпочинку.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T3.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel7" onclick="toggleHotelInfo('hotel7')">
+                <img src="../IMAGES/K7.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T3.html'">
+                <span class="hotel-name" style="font-size: 3vw;">Astoria Hotel</span>
+                <div class="hotel-description">
+                    Невеликий міський готель недалеко від центру Кемера. Поруч всі розважальні центри курортного міста: дискотеки, бари, ресторани, парки, магазини.
+                    Є одним 4-поверхова будівля.
+                    Готель має власний пляж і хороші номери. Рекомендується для молодіжного відпочинку.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T3.html'">Ціна: $1000</button>
+        </div>
+        <script>
+            function toggleHotelInfo(buttonId) {
+                var button = document.getElementById(buttonId);
+                var hotelName = button.querySelector('.hotel-name');
+                var description = button.querySelector('.hotel-description');
+
+                if (description.style.display === 'none' || description.style.display === '') {
+                    description.style.display = 'block';
+                    hotelName.style.display = 'none';
+                } else {
+                    description.style.display = 'none';
+                    hotelName.style.display = 'inline'; // Встановлюємо inline, щоб вернути оригінальний стиль
+                }
+            }
+        </script>
+    </main>
+    <footer>
+        <p>© 2023 TYR COMPANI. Усі права захищені.</p>
+        <p>Контактна інформація: example.@gmail.com</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TYR COMPANI</title>
+    <link rel="icon" type="image/x-icon" href="../favicon/TYR COMPANI.ico">
+    <link rel="stylesheet" type="text/css" href="../CSS/C-T1.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="../IMAGES/LOGO.png" alt="LOGO" width="550" height="200">
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html" class="кнопка">
+                        <div>Головна</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../TYRU.html" class="кнопка">
+                        <div>Тури</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../POSLYGU.html" class="кнопка">
+                        <div>Послуги</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../PRO NAS.html" class="кнопка">
+                        <div>Про нас</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../CONTACTU.html" class="кнопка">
+                        <div>Контакти</div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Тут буде вміст сторінки "Тури" -->
+        <div class="button-container">
+            <button class="transparent-button" id="hotel1" onclick="toggleHotelInfo('hotel1')">
+                <img src="../IMAGES/A1.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T1.html'">
+                <span class="hotel-name" style="font-size: 3vw;">Pimalai Resort & Spa</span>
+                <div class="hotel-description">
+                    У розкішному та вишуканому курортному спа-готелі Pimalai до послуг гостей ексклюзивні, просторі та тихі номери з персональним обслуговуванням.
+                    З вікон відкривається вид на блакитні води Андаманського моря.
+                    До послуг гостей безкоштовний трансфер від аеропорту Крабі.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T1.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel2" onclick="toggleHotelInfo('hotel2')">
+                <img src="../IMAGES/A2.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T2.html'">
+                <span class="hotel-name" style="font-size: 3vw;">Poppies Samui</span>
+                <div class="hotel-description">
+                    Курорт Anavana Beach пропонує тропічний бутик-відпочинок уздовж південного пляжу Чавенг на острові Самуї.
+                    З вікон відкривається вид на Сіамську затоку. До послуг гостей відкритий басейн і котеджі в тайському стилі з безкоштовним Wi-Fi.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T2.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel3" onclick="toggleHotelInfo('hotel3')">
+                <img src="../IMAGES/A3.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T3.html'">
+                <span class="hotel-name" style="font-size: 3vw;">V STYLE BOUTIQUE HOTEL</span>
+                <div class="hotel-description">
+                    Бутік-готель V Style розташований всього за кілька хвилин їзди від пляжу Паттайї та торгового комплексу Central Festival Pattaya.
+                    Остання реновація у 2011 році.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T3.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel4" onclick="toggleHotelInfo('hotel4')">
+                <img src="../IMAGES/A4.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T1.html'">
+                <span class="hotel-name" style="font-size: 3vw;">SAROJIN</span>
+                <div class="hotel-description">
+                    Готель The Sarojin розташований серед розкішного тропічного саду на курорті Кхаолак. З території є прямий доступ до пляжу.
+                    Гості гідно оцінять відпочинок у готелі, оточеному національними парками та тропічними лісами, всього за 1 годину їзди на автомобілі від міста Пхукет.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T1.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel5" onclick="toggleHotelInfo('hotel5')">
+                <img src="../IMAGES/A5.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T2.html'">
+                <span class="hotel-name" style="font-size: 3vw;">BAAN LOM TALAY</span>
+                <div class="hotel-description">
+                    Baan Lom Talay - це вілла в місті Чонгмон-Біч. Тут є відкритий басейн, сад і тераса, а також безкоштовний Wi-Fi. З вікон відкривається краєвид на море.
+                    В околицях гості вілли можуть зайнятися пішими прогулянками, сноркелінгом, велосипедними прогулянками та іншими видами активного відпочинку.
+                    Серед зручностей - безкоштовне приватне паркування.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T2.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel6" onclick="toggleHotelInfo('hotel6')">
+                <img src="../IMAGES/A6.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T3.html'">
+                <span class="hotel-name" style="font-size: 3vw;">LIME SAMUI</span>
+                <div class="hotel-description">
+                    Екологічно розроблена вілла Lime Samui 10: Perfect for Families and Events розташована на острові Самуї, за 12 км від Рибацького села.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T3.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel7" onclick="toggleHotelInfo('hotel7')">
+                <img src="../IMAGES/A7.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T3.html'">
+                <span class="hotel-name" style="font-size: 3vw;">WHITE PEACH HOTEL</span>
+                <div class="hotel-description">
+                    White Peach Hotel підійде мандрівникам, які хочуть краще вивчити місто.
+                    White Peach Hotel має усі зручності для комфортного перебування гостей Пхукет у справах або для огляду визначних пам'яток.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T3.html'">Ціна: $1000</button>
+        </div>
+        <script>
+            function toggleHotelInfo(buttonId) {
+                var button = document.getElementById(buttonId);
+                var hotelName = button.querySelector('.hotel-name');
+                var description = button.querySelector('.hotel-description');
+
+                if (description.style.display === 'none' || description.style.display === '') {
+                    description.style.display = 'block';
+                    hotelName.style.display = 'none';
+                } else {
+                    description.style.display = 'none';
+                    hotelName.style.display = 'inline'; // Встановлюємо inline, щоб вернути оригінальний стиль
+                }
+            }
+        </script>
+    </main>
+    <footer>
+        <p>© 2023 TYR COMPANI. Усі права захищені.</p>
+        <p>Контактна інформація: example.@gmail.com</p>
+    </footer>
+</body>
+</html>
