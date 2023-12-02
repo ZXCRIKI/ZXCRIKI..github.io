@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TYR COMPANI</title>
+    <link rel="icon" type="image/x-icon" href="../favicon/TYR COMPANI.ico">
+    <link rel="stylesheet" type="text/css" href="../CSS/C-T1.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="../IMAGES/LOGO.png" alt="LOGO" width="550" height="200">
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html" class="кнопка">
+                        <div>Головна</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../TYRU.html" class="кнопка">
+                        <div>Тури</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../POSLYGU.html" class="кнопка">
+                        <div>Послуги</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../PRO NAS.html" class="кнопка">
+                        <div>Про нас</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../CONTACTU.html" class="кнопка">
+                        <div>Контакти</div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Тут буде вміст сторінки "Тури" -->
+        <div class="button-container">
+            <button class="transparent-button" id="hotel1" onclick="toggleHotelInfo('hotel1')">
+                <img src="../IMAGES/B1.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T1.html'">
+                <span class="hotel-name" style="font-size: 3vw;">ITALIA</span>
+                <div class="hotel-description">
+                    У помешканні Italia Hotel, яке розміщено в місті Несебир, до розпорядження гостей сад, тераса, бар та безкоштовний Wi-Fi.
+                    За 8 хв. ходьби звідси можна відвідати пам'ятку "Південний пляж Несебира", а за 700 м – пам'ятку "Пляж Сонячний берег".
+                    Серед іншого до послуг гостей туристичне бюро, ресторан та дитячий ігровий майданчик.
+                    Для зручності гостей обслуговування номерів, цілодобова стійка реєстрації та пункт обміну валют.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T1.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel2" onclick="toggleHotelInfo('hotel2')">
+                <img src="../IMAGES/B2.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T2.html'">
+                <span class="hotel-name" style="font-size: 3vw;">Slavianski</span>
+                <div class="hotel-description">
+                    Готель Slavyanski розташований поруч із пляжем на узбережжі Чорного моря.
+                    До послуг гостей номери з балконом, безкоштовний Wi-Fi на всій території, відкритий басейн з безкоштовними шезлонгами, тераса та бар.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T2.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel3" onclick="toggleHotelInfo('hotel3')">
+                <img src="../IMAGES/B3.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T3.html'">
+                <span class="hotel-name" style="font-size: 3vw;">Bonita</span>
+                <div class="hotel-description">
+                    Це 15-поверхова будівля готелю розташована в самому центрі курорту Золоті Піски, всього за 20 метрів від пляжу.
+                    З усіх номерів відкривається чудовий краєвид на море.
+                </div>
+              </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T3.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel4" onclick="toggleHotelInfo('hotel4')">
+                <img src="../IMAGES/B4.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T1.html'">
+                <span class="hotel-name" style="font-size: 3vw;">Aparthotel ADMIRAL PLAZA</span>
+                <div class="hotel-description">
+                    Готель Admiral Plaza розташований за 100 метрів від пляжу та за 10 хвилин їзди від морського курорту Несебир.
+                    До послуг гостей номери з кондиціонером і відкритий басейн із безкоштовними шезлонгами.
+                    Усі номери оснащені телевізором із кабельними каналами. В окремій ванній кімнаті встановлено душ.
+                    В усіх апартаментах є повністю обладнана кухня, обідня зона, зона відпочинку та ванна кімната з ванною.
+
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T1.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel5" onclick="toggleHotelInfo('hotel5')">
+                <img src="../IMAGES/B5.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T2.html'">
+                <span class="hotel-name" style="font-size: 3vw;">IVANA PALACE</span>
+                <div class="hotel-description">
+                    В отеле Ivana Palace, расположенном в западной части курорта Солнечный Берег,
+                    в 300 метрах от пляжа, к услугам гостей уютные и стильные двухместные номера, одноместные номера и апартаменты.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T2.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel6" onclick="toggleHotelInfo('hotel6')">
+                <img src="../IMAGES/B6.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T3.html'">
+                <span class="hotel-name" style="font-size: 3vw;">Balaton</span>
+                <div class="hotel-description">
+                    отель Balaton розташований за 150 метрів від піщаних дюн Сонячного Берега.
+                    До послуг гостей номери з власними балконами, комплекс відкритих басейнів та безкоштовний бездротовий доступ до Інтернету (Wi-Fi) у фойє.
+                    Номери в готелі Balaton обладнані окремою ванною кімнатою,
+                    телевізором із кабельним телебаченням та холодильником. Деякі з них оснащено кондиціонерами з індивідуальним контролем.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T3.html'">Ціна: $1000</button>
+        </div>
+        <div class="button-container">
+            <button class="transparent-button" id="hotel7" onclick="toggleHotelInfo('hotel7')">
+                <img src="../IMAGES/B7.jfif" alt="Button Image" onclick="window.location.href='F_TUR/T3.html'">
+                <span class="hotel-name" style="font-size: 3vw;">HARMONY PALACE</span>
+                <div class="hotel-description">
+                    Комплекс апартаментів Harmony Palace розташований на курорті Сонячний берег, за 5 хвилин ходьби від пляжу.
+                    До послуг гостей апартаменти з кондиціонером та безкоштовним Wi-Fi.
+                    Надається безкоштовний відкритий сезонний басейн з дитячою секцією. Крім того, гості можуть безкоштовно відвідувати сауну та тренажерний зал.
+                </div>
+            </button>
+            <button class="price-button" onclick="window.location.href='F_TUR/T3.html'">Ціна: $1000</button>
+        </div>
+        <script>
+            function toggleHotelInfo(buttonId) {
+                var button = document.getElementById(buttonId);
+                var hotelName = button.querySelector('.hotel-name');
+                var description = button.querySelector('.hotel-description');
+
+                if (description.style.display === 'none' || description.style.display === '') {
+                    description.style.display = 'block';
+                    hotelName.style.display = 'none';
+                } else {
+                    description.style.display = 'none';
+                    hotelName.style.display = 'inline'; // Встановлюємо inline, щоб вернути оригінальний стиль
+                }
+            }
+        </script>
+    </main>
+    <footer>
+        <p>© 2023 TYR COMPANI. Усі права захищені.</p>
+        <p>Контактна інформація: example.@gmail.com</p>
+    </footer>
+</body>
+</html>
